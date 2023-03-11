@@ -1,0 +1,24 @@
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 30rem;
+  height: 20rem;
+  border: double 5px black;
+  border-radius: 10px;
+}
+
+.loginForm input {
+  font-size: x-large;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#loginBtn {
+  transform: translateX(0px);
+}
